@@ -15,10 +15,16 @@
 <body>
     <div class="container">
     <h1>Infromacije o serveru</h1>
-    <?php ?>
+    <?php if($serverski_niz):?>
         <ul class="list-group">
-            <?php foreach($serverski_niz as $key=>$value)?>
-    <?php ?>
+            <?php foreach($serverski_niz as $key=>$value):?>
+                <li class="list-group-item">
+                    <?php
+                        echo $key.":".$value;
+                    ?>
+                </li>
+             <?php endforeach?>
+    <?php endif?>
     </div>
 </body>
 </html>
