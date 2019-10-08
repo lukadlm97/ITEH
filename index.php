@@ -12,6 +12,17 @@
         echo $kljuc.":".$vrednost."<br>";
     }
 
-    print_r($serverski_niz);
+    // print_r($serverski_niz);
+
+    $klijentski_niz = [
+        "IP adresa klijenta" => $_SERVER['REMOTE_ADDR'],
+        "Port klijenta" => $_SERVER['REMOTE_PORT']
+    ];
+    echo '<hr>';
+    echo '<hr>';
+    
+    foreach($klijentski_niz as $kljuc => $vrednost){
+        echo $kljuc.":".$vrednost."<br>";
+    }
 
 ?>
