@@ -55,7 +55,7 @@ class Database{
     }
 
     function insert($podaci,$table_name="novosti",$column="naslov,tekst"){
-        $upit = "INSERT INTO $table_name($column) VALUES($podaci[0],$podaci[1])";
+        $upit = "INSERT INTO $table_name($column) VALUES('$podaci[0]','$podaci[1]')";
         return $this->executeQuery($upit);
     }
 

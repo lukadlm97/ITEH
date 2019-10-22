@@ -52,7 +52,7 @@
                                 break;
                                 case "insert";
                                     if(isset($_POST['insert'])){
-                                        $podaci = array($_POST["naslov"],$_POST["tekst"]);
+                                        $podaci = array($_POST['naslov'],$_POST['tekst']);
                                         if($database->insert($podaci)){
                                             echo "Uspesno dodato!";
                                         }else{
@@ -69,7 +69,7 @@
                                     <br>
                                     Tekst:
                                     <br>
-                                    <input name="text" type="textarea">
+                                    <input name="tekst" type="textarea">
                                     <br>
                                     <button type="submit" name="insert">INSERT</button>
                                     <br>
