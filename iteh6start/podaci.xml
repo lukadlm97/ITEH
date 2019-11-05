@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<predmeti>
+    <predmet>
+        <id>1</id>
+        <naziv>Elektronsko poslovanje</naziv>
+        <semestar>5</semestar>
+        <vrsta>obavezni</vrsta>
+        <broj_prijavljenih_studenata>500</broj_prijavljenih_studenata>
+    </predmet>
+    <predmet>
+        <id>2</id>
+        <naziv>Internet tehnologije</naziv>
+        <semestar>7</semestar>
+        <vrsta>obavezni</vrsta>
+        <broj_prijavljenih_studenata>300</broj_prijavljenih_studenata>
+    </predmet>
+</predmeti>

@@ -1,0 +1,18 @@
+{
+    "predmeti": [
+        {
+            "id": "1",
+            "naziv": "Elektronsko poslovanje",
+            "semestar": "5",
+            "vrsta": "obavezni",
+            "broj_prijavljenih_studenata": "500"
+        },
+        {
+            "id": "2",
+            "naziv": "Internet tehnologije",
+            "semestar": "7",
+            "vrsta": "obavezni",
+            "broj_prijavljenih_studenata": "300"
+        }
+    ]
+}

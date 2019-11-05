@@ -10,22 +10,13 @@
         // kada je dokument učitan
         $(document).ready(function() {
             // selektujemo element čiji ID je txt, proveravamo kada je sklonjen fokus sa njega (bilo kojim tasterom)
-           $("#txt").keyup(function(){
-                var vrednost = $("#txt").val;
-                $.get("suggest.php",{
-                    unos:vrednost
-                    },
-                    function(podaci){
-                        $("#livesearch").show();
-                        $("#livesearch").html(podaci);
-                    });
-           });
+           
         });
 
         // funkcija koja postavlja ime države u polje za pretragu
-        function place(element) {
+        function place(ele) {
             // postavljamo pronađenu vrednost u polje za pretragu
-                $("#txt").val(element.innerHTML);
+
             // kada je odabrana vrednost, sakrivamo listu rezultata
 
         }
